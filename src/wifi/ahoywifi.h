@@ -11,6 +11,9 @@
 #include <WiFiUdp.h>
 #include <DNSServer.h>
 #include "ESPAsyncWebServer.h"
+#include <functional>
+#include <list>
+#include <vector>
 
 #include "../config/settings.h"
 
